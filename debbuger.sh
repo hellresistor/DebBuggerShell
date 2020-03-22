@@ -1,5 +1,5 @@
 #!/bin/bash
-LOC=PATH
+readonly LOC="$PWD"
 ## stdout ##
 exec   > >(tee -ia $LOC/fw.log)
 ## stderr ##
